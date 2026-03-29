@@ -55,6 +55,8 @@ Add database support (MySQL/SQLite)
 Implement user authentication system
 Add reminders and notifications
 Cloud sync for data backup
+Improve UI with more customization
 
 👨‍💻 Author
 Harsh Kumar Singh
+
