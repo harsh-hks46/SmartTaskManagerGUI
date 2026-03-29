@@ -1,77 +1,111 @@
-📋 SmartTask Manager with Daily Diary
+# 📋 SmartTask Manager with Daily Diary
 
-📌 Project Overview
+## 📌 Project Overview
 
-SmartTask Manager with Daily Diary is a Java-based productivity application designed to help users efficiently manage their daily tasks while also maintaining personal diary entries.
+SmartTask Manager with Daily Diary is a **Java-based productivity application** designed to help users efficiently manage their daily tasks while also maintaining personal diary entries.
 
-The application combines task scheduling with daily reflection, promoting better organization, time management, and self-improvement.
+It combines **task scheduling** with **daily reflection**, promoting better organization, time management, and self-improvement.
 
-✨ Key Features
+---
 
-✔️ Task Management
+## ✨ Key Features
 
-Add, edit, and delete tasks
-Set deadlines for each task
-Assign priority levels (High, Medium, Low)
+### ✔️ Task Management
 
-✔️ Progress Tracking
+* Add, edit, and delete tasks
+* Set deadlines for each task
+* Assign priority levels (High, Medium, Low)
 
-Mark tasks as completed
-View pending and completed tasks separately
+### ✔️ Progress Tracking
 
-✔️ Daily Diary
+* Mark tasks as completed
+* View pending and completed tasks separately
 
-Write and save daily personal notes
-Maintain a record of thoughts and activities
+### ✔️ Daily Diary
 
-✔️ Modern User Interface
+* Write and save daily personal notes
+* Maintain a record of thoughts and activities
 
-Clean and attractive GUI using FlatLaf
-User-friendly design for smooth interaction
+### ✔️ Modern User Interface
 
-🛠️ Technologies Used
+* Clean and attractive GUI using **FlatLaf**
+* User-friendly design for smooth interaction
 
-Java (Core + Object-Oriented Programming)
-Swing (Graphical User Interface)
-File Handling (Data storage and retrieval)
-FlatLaf (Modern UI framework)
+---
 
-▶️ How to Run the Application
+## 🛠️ Technologies Used
 
-Follow these steps to run the project:
+* **Java** (Core + Object-Oriented Programming)
+* **Swing** (Graphical User Interface)
+* **File Handling** (Data storage and retrieval)
+* **FlatLaf** (Modern UI framework)
 
-🔹 Using JAR File
+---
+
+## ▶️ How to Run the Application
+
+### 🔹 Run Using JAR (Recommended)
+
+```bash
 java -jar SmartTaskManager.jar
-🔹 Using Source Code
-Open the project in any Java IDE (e.g., IntelliJ, Eclipse, VS Code)
-Ensure all dependencies (FlatLaf) are added
-Run the main class
+```
 
-📂 Project Structure
+### 🔹 Run Using Source Code
 
+1. Open the project in any Java IDE (IntelliJ / Eclipse / VS Code)
+2. Ensure all dependencies (e.g., FlatLaf) are added
+3. Run the main class
+
+---
+
+## 💡 How to Use
+
+* Add tasks with deadlines and priorities
+* Mark tasks as completed to track progress
+* Manage pending and completed tasks
+* Write daily diary entries
+* Use the interface to stay organized and productive
+
+---
+
+## 📂 Project Structure
+
+```
 SmartTaskManager/
 │
-├── model/     → Contains data classes (Task, DiaryEntry, etc.)
-├── manager/   → Handles business logic and operations
-├── gui/       → Contains all user interface components
-└── resources/ → UI assets and configuration files
+├── model/       # Data classes (Task, DiaryEntry, etc.)
+├── manager/     # Business logic and operations
+├── gui/         # User interface components
+└── resources/   # UI assets and configuration files
+```
 
-🎯 Project Objective
+---
 
-The main objective of this project is to:
+## 🎯 Project Objective
 
-Develop a simple and efficient productivity tool
-Integrate task management with daily journaling
-Provide a modern and user-friendly interface
-Apply concepts of OOP, GUI design, and file handling in Java
+* Develop a simple and efficient productivity tool
+* Integrate task management with daily journaling
+* Provide a modern and user-friendly interface
+* Apply concepts of OOP, GUI design, and file handling in Java
 
-🚀 Future Enhancements
-Add database support (MySQL/SQLite)
-Implement user authentication system
-Add reminders and notifications
-Cloud sync for data backup
+---
 
-👨‍💻 Author
+## 🚀 Future Enhancements
 
-Harsh Kumar Singh
+* Add database support (MySQL / SQLite)
+* Implement user authentication system
+* Add reminders and notifications
+* Cloud sync for data backup
+
+---
+
+## 👨‍💻 Author
+
+**Harsh Kumar Singh**
+
+---
+
+## 📌 Note
+
+Make sure Java is installed on your system before running the application.
 
