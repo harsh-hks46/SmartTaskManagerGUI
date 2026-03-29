@@ -231,15 +231,27 @@ public class TaskPanel extends JPanel {
     }
 
     private JButton actionButton(String text, Color bg, Color fg) {
-        JButton btn = new JButton(text);
-        btn.setBackground(bg);
-        btn.setForeground(fg);
-        btn.setFocusPainted(false);
-        btn.setFont(new Font("Segoe UI", Font.BOLD, 12));
-        btn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-        btn.setBorderPainted(false);
-        btn.setOpaque(true);
-        return btn;
+    JButton btn = new JButton(text);
+
+    btn.setBackground(bg);
+    btn.setForeground(fg);
+
+    // 🔥 Modern UI improvements
+    btn.setFocusPainted(false);
+    btn.setFont(new Font("Segoe UI", Font.BOLD, 13));
+    btn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+
+    // Padding (VERY important for modern look)
+    btn.setBorder(BorderFactory.createEmptyBorder(8, 16, 8, 16));
+
+    // Flat look
+    btn.setBorderPainted(false);
+    btn.setOpaque(true);
+
+    // Optional (works great with FlatLaf)
+    btn.putClientProperty("JButton.buttonType", "roundRect");
+
+    return btn;
     }
 
     private void showSuccess(String msg) {
